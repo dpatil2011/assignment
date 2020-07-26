@@ -12,7 +12,7 @@ import React, { Component } from "react";
 import Modal from "react-bootstrap/Modal";
 import "react-calendar/dist/Calendar.css";
 import { Icon } from 'antd';
-import { BsX } from "react-icons/bs";
+// import { BsX } from "react-icons/bs";
 
 class ModalUserDetail extends Component {
   constructor(props) {
