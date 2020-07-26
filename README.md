@@ -1,6 +1,6 @@
 ## Getting started
 
-You can view a live demo over at (https://boring-cray-6cce83.netlify.app)
+You can view a live demo over at https://boring-cray-6cce83.netlify.app
 
 To get the frontend running locally:
 
@@ -12,10 +12,10 @@ To get the frontend running locally:
 
 **General functionality:**
 
--Get list of user throw mock api
--On click of user get user based on id throw mock api
--On click of user modal will open with that particular user details 
--Calendar view for activity periods
+- Get list of user throw mock api
+- On click of user get user based on id throw mock api
+- On click of user modal will open with that particular user details 
+- Calendar view for activity periods
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
