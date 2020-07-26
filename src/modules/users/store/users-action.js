@@ -32,7 +32,7 @@ const convertTime12to24 = (time12h) => {
 
 export const getListUsers = () => (dispatch) =>
   new Promise((resolve, reject) => {
-    axios.get("http://localhost:3004/members").then(
+    axios.get("https://my-json-server.typicode.com/dpatil2011/jsonServer/members").then(
       (response) => {
         dispatch(setListUsers(response.data));
         resolve(response.data);
@@ -46,7 +46,7 @@ export const getListUsers = () => (dispatch) =>
 
 export const getUserDetail = (id) => (dispatch) =>
   new Promise((resolve, reject) => {
-    axios.get(`http://localhost:3004/members/${id}`).then(
+    axios.get(`https://my-json-server.typicode.com/dpatil2011/jsonServer/members/${id}`).then(
       (response) => {
         const data = [];
         const months = [
