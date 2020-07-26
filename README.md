@@ -12,9 +12,9 @@ To get the frontend running locally:
 
 **General functionality:**
 
-- Get list of user throw mock api
-- On click of user get user based on id throw mock api
-- On click of user modal will open with that particular user details 
+- Get list of user through mock api
+- On click of user get user based on id through mock api
+- On click of user, modal will open with that particular user details 
 - Calendar view for activity periods
 
 
