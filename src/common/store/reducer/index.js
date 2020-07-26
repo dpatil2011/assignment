@@ -1,13 +1,11 @@
-import {} from './../action/index';
+import {} from "./../action/index";
 
-const intialState = {
-
-};
+const intialState = {};
 
 export default (state = intialState, action) => {
-    const {payload, type} = action;
-    switch(type){
-        default:
-            return state;
-    }
-}
+  const { payload, type } = action;
+  switch (type) {
+    default:
+      return state;
+  }
+};

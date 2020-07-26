@@ -1,3 +1,13 @@
+@import "./../../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "./../../../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
 .App {
   text-align: center;
 }
@@ -36,3 +46,100 @@
     transform: rotate(360deg);
   }
 }
+.scrollbar {
+  overflow-y: scroll;
+}
+.scrollbar-primary {
+  scrollbar-color: #d8d8d8 #ffffff;
+  margin-right: 5px;
+}
+.scrollbar-primary::-webkit-scrollbar {
+  width: 6px;
+  background-color: #d8d8d8 #f5f5f5;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #d8d8d8;
+}
+.home-background {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-div {
+  width: 38%;
+  height: 480px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.home-row1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  padding-top: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(242, 242, 242);
+}
+.home-div2 {
+  height: 390px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+}
+.home-row2 {
+  display: flex;
+  align-content: "left";
+  justify-content: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-color: rgb(242, 242, 242);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.modal-header {
+  justify-content: center !important;
+}
+.modal-title {
+  font-size: "16px";
+  color: #282c34;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.close-icon {
+  cursor: pointer;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 0px;
+  margin-left: auto;
+  outline: 0px;
+}
+.e-quick-popup-wrapper
+  .e-event-popup
+  .e-popup-header
+  .e-header-icon-wrapper
+  .e-edit,
+.e-quick-popup-wrapper
+  .e-event-popup
+  .e-popup-header
+  .e-header-icon-wrapper
+  .e-delete {
+  display: none;
+}
+

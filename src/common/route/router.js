@@ -1,15 +1,15 @@
-import React, {  } from 'react';
-import { BrowserRouter, Route ,Switch} from 'react-router-dom'
-import UserlistPage from './../../app/users/users-list-page';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import UserlistPage from "./../../app/users/users-list-page";
 
 function Routes() {
-    return (
-      <BrowserRouter>
+  return (
+    <BrowserRouter>
       <Switch>
-      <Route path = "/" component = {UserlistPage} exact= {true}/>
+        <Route path="/" component={UserlistPage} exact={true} />
       </Switch>
-      </BrowserRouter>
-    );
-  }
-  
-  export default Routes;
+    </BrowserRouter>
+  );
+}
+
+export default Routes;
