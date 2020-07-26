@@ -1,3 +1,23 @@
+## Getting started
+
+You can view a live demo over at (https://boring-cray-6cce83.netlify.app)
+
+To get the frontend running locally:
+
+- Clone this repo
+- `npm install` or `yarn install` to install all req'd dependencies
+- `npm start` to start the local server (this project uses create-react-app)
+
+## Functionality overview
+
+**General functionality:**
+
+-Get list of user throw mock api
+-On click of user get user based on id throw mock api
+-On click of user modal will open with that particular user details 
+-Calendar view for activity periods
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
